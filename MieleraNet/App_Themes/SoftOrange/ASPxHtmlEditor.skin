@@ -1,0 +1,48 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
+
+<dxhe:ASPxHtmlEditor runat="server" >
+	<Styles CssPostfix="SoftOrange" CssFilePath="{0}/styles.css">
+		<ViewArea>
+			<Border BorderStyle="Solid" BorderColor="#D3D3D3" BorderWidth="3px" />
+		</ViewArea>
+	</Styles>
+	<Images SpriteCssFilePath="{0}/sprite.css">
+		<LoadingPanel Url="HtmlEditor/Loading.gif"></LoadingPanel>
+	</Images>
+	<PartsRoundPanel>
+	    <%-- Header parts --%>
+	    <HeaderLeftEdge>
+	        <BackgroundImage Repeat="NoRepeat" VerticalPosition="bottom" ImageUrl="HtmlEditor/RoundPanel/herpHeaderLeftEdge.gif" />
+	    </HeaderLeftEdge>
+	    <HeaderContent>
+	        <BackgroundImage Repeat="RepeatX" VerticalPosition="bottom" ImageUrl="HtmlEditor/RoundPanel/herpHeaderBack.gif" />
+	    </HeaderContent>
+	    <HeaderRightEdge>
+	        <BackgroundImage Repeat="NoRepeat" VerticalPosition="bottom" ImageUrl="HtmlEditor/RoundPanel/herpHeaderRightEdge.gif" />
+	    </HeaderRightEdge>
+	    <%-- Middle parts --%>
+	    <Content BackColor="White" />
+	    <RightEdge BackColor="White">
+	        <BackgroundImage Repeat="RepeatY" HorizontalPosition="right" ImageUrl="HtmlEditor/RoundPanel/herpRightEdge.gif" />
+	    </RightEdge>
+	    <TopEdge BackColor="White">
+	        <BackgroundImage ImageUrl="HtmlEditor/RoundPanel/herpTopEdge.gif" />
+	    </TopEdge>
+	    <NoHeaderTopEdge BackColor="White">
+	        <BackgroundImage ImageUrl="HtmlEditor/RoundPanel/herpNoHeaderTopEdge.gif" />
+	    </NoHeaderTopEdge>
+	    <LeftEdge BackColor="White">
+	        <BackgroundImage Repeat="RepeatY" HorizontalPosition="left" ImageUrl="HtmlEditor/RoundPanel/herpLeftEdge.gif" />
+	    </LeftEdge>
+	    <BottomEdge BackColor="White">
+	        <BackgroundImage Repeat="RepeatX" VerticalPosition="bottom" ImageUrl="HtmlEditor/RoundPanel/herpBottomEdge.gif" />
+	    </BottomEdge>
+	</PartsRoundPanel>
+	<StylesRoundPanel>            
+		<ControlStyle>
+			 <Border BorderStyle="None" />
+		</ControlStyle>
+	</StylesRoundPanel>	
+</dxhe:ASPxHtmlEditor>
+

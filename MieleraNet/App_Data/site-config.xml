@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SiteSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SiteName>Mielera Net</SiteName>
+  <SiteEmailAddress>mielera@yoursite.com</SiteEmailAddress>
+  <DataSourceCentral>localhost</DataSourceCentral>
+  <DatabaseCentral>C:\Users\cmcoadm\Desktop\Mielera\BD\CENTRAL.FDB</DatabaseCentral>
+  <UserIDCentral>SYSDBA</UserIDCentral>
+  <imageCentral>masterkey</imageCentral>
+  <DialectCentral>3</DialectCentral>
+  <DataSourceDemo>localhost</DataSourceDemo>
+  <DatabaseDemo>C:\Users\cmcoadm\Desktop\Mielera\BD\central.FDB</DatabaseDemo>
+  <UserIDDemo>SYSDBA</UserIDDemo>
+  <imageDemo>masterkey</imageDemo>
+  <DialectDemo>3</DialectDemo>
+</SiteSettings>
+
+
+

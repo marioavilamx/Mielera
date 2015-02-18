@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OrdenSalida" targetNamespace="http://tempuri.org/OrdenSalida.xsd" xmlns:mstns="http://tempuri.org/OrdenSalida.xsd" xmlns="http://tempuri.org/OrdenSalida.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OrdenSalida" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OrdenSalida" msprop:Generator_DataSetName="OrdenSalida">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ordenSalida" msprop:Generator_UserTableName="ordenSalida" msprop:Generator_RowDeletedName="ordenSalidaRowDeleted" msprop:Generator_TableClassName="ordenSalidaDataTable" msprop:Generator_RowChangedName="ordenSalidaRowChanged" msprop:Generator_RowClassName="ordenSalidaRow" msprop:Generator_RowChangingName="ordenSalidaRowChanging" msprop:Generator_RowEvArgName="ordenSalidaRowChangeEvent" msprop:Generator_RowEvHandlerName="ordenSalidaRowChangeEventHandler" msprop:Generator_TablePropName="ordenSalida" msprop:Generator_TableVarName="tableordenSalida" msprop:Generator_RowDeletingName="ordenSalidaRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LOTE" msprop:Generator_UserColumnName="LOTE" msprop:Generator_ColumnPropNameInRow="LOTE" msprop:Generator_ColumnVarNameInTable="columnLOTE" msprop:Generator_ColumnPropNameInTable="LOTEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIPO" msprop:Generator_UserColumnName="TIPO" msprop:Generator_ColumnPropNameInRow="TIPO" msprop:Generator_ColumnVarNameInTable="columnTIPO" msprop:Generator_ColumnPropNameInTable="TIPOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONTENEDOR" msprop:Generator_UserColumnName="CONTENEDOR" msprop:Generator_ColumnPropNameInRow="CONTENEDOR" msprop:Generator_ColumnVarNameInTable="columnCONTENEDOR" msprop:Generator_ColumnPropNameInTable="CONTENEDORColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SELLO" msprop:Generator_UserColumnName="SELLO" msprop:Generator_ColumnPropNameInRow="SELLO" msprop:Generator_ColumnVarNameInTable="columnSELLO" msprop:Generator_ColumnPropNameInTable="SELLOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FACTURA" msprop:Generator_UserColumnName="FACTURA" msprop:Generator_ColumnPropNameInRow="FACTURA" msprop:Generator_ColumnVarNameInTable="columnFACTURA" msprop:Generator_ColumnPropNameInTable="FACTURAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TAMBORES" msprop:Generator_UserColumnName="TAMBORES" msprop:Generator_ColumnPropNameInRow="TAMBORES" msprop:Generator_ColumnVarNameInTable="columnTAMBORES" msprop:Generator_ColumnPropNameInTable="TAMBORESColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PESONETO" msprop:Generator_UserColumnName="PESONETO" msprop:Generator_ColumnPropNameInRow="PESONETO" msprop:Generator_ColumnVarNameInTable="columnPESONETO" msprop:Generator_ColumnPropNameInTable="PESONETOColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

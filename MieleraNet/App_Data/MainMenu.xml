@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Demos Name="Mielera" ColumnCount="3" HighlightedFeaturesPosition="1" Title="Menu Principal Mielera" TitleFormatString="{2} - {0}">
+  <DemoGroup Text="Alta y Mentenimiento de Entidades" Caption="Area de Ventas" BeginCategory="true">
+    <Demo Text="Personas Fisicas" NavigateUrl="~/Entidades/Entidad.aspx" Caption=" " UseFullTitle="false" Title="Personas Fisicas"/>
+    <Demo Text="Personas Morales" NavigateUrl="~/Entidades/Entidad.aspx?pagina=1" Caption=" " UseFullTitle="false" Title="Personas Morales"/>
+    <Demo Text="Alta de Direcciones" NavigateUrl="~/Entidades/Entidad.aspx?pagina=2" Caption=" " UseFullTitle="false" Title="Alta de Direcciones"/>
+    <Demo Text="Usuarios" NavigateUrl="~/Entidades/Usuarios.aspx" Title="Usuarios"/>
+  </DemoGroup>
+  <DemoGroup Text="Anticipos o Suministros" Caption="Anticipos o Suministros" BeginCategory="true">
+    <Demo Text="Solicitudes" NavigateUrl="~/Solicitudes/Solicitud.aspx" Title="Solicitudes"/>
+    <Demo Text="Cortes x Fecha" NavigateUrl="~/Reportes/ImpCortesxFecha.aspx" Title="Cortes x Fecha"  roles="Administrador" />
+    <Demo Text="Cortes x Delegado" NavigateUrl="~/Reportes/ImpCortesxDelegado.aspx" Title="Cortes x Delegado" roles="Administrador"/>
+    <Demo Text="Reporte de Anticipos Entregados" NavigateUrl="~/Reportes/ImpAnticiposEnt.aspx" Title="Reporte de Anticipos Entregados" roles="Administrador"/>
+  </DemoGroup>
+  <DemoGroup Text="Envío y Recepción de Tambores" Caption="Envío y Recepción de Tambores" BeginCategory="true">
+    <Demo Text="Nueva Transferencia" NavigateUrl="~/Tambores/Transferencia.aspx" Title="Nueva Transferencia"/>
+    <Demo Text="Historial de Envíos" NavigateUrl="~/Tambores/Transferencia.aspx?pagina=1" Title="Historial de Envios"/>
+    <Demo Text="Tambores Recepcionados" NavigateUrl="~/Tambores/HistTambores.aspx" Title="Historial de Tambores Recepcionados"/>
+  </DemoGroup>
+  <DemoGroup Text="Recepción de Miel" Caption="Recepción de Miel" BeginCategory="true">
+    <Demo Text="Compra de Miel" NavigateUrl="~/Recepcion/CompraMiel.aspx" Title="Compra de Miel"/>
+    <Demo Text="Transferir Compra" NavigateUrl="~/Recepcion/CompraMiel.aspx?pagina=1" Title="Transferir compra de Miel"/>
+    <Demo Text="Historial de Transferencias de Miel" NavigateUrl="~/Recepcion/CompraMiel.aspx?pagina=2" Title="Historial de Transferencias de Miel"/>
+  </DemoGroup>
+  <DemoGroup Text="Recepción de Transferencias" Caption="Recepcion de Transferencias" BeginCategory="true">
+    <Demo Text="Recepción de Transferencias de Miel" NavigateUrl="~/Transferencias/RecepcioMiel.aspx" Title="Recepcion de Transferencias de Miel"/>
+    <Demo Text="Historial de Miel Recepcionada" NavigateUrl="~/Transferencias/RecepcioMiel.aspx?pagina=1" Title="Historial de Miel Recepcionada"/>
+    <Demo Text="Trazabilidad de Entrada" NavigateUrl="~/Transferencias/Trazabilidad.aspx" Title="Trazabilidad de Entrada"/>
+  </DemoGroup>
+  <DemoGroup Text="Reportes" Caption="Reportes" BeginCategory="true">
+    <Demo Text="Compras de Miel" NavigateUrl="~/Reportes/ComprasMiel.aspx" Title="Compras de Miel"/>
+    <Demo Text="Reportes Sagarpa" NavigateUrl="~/Reportes/SagarpaEnt.aspx" Title="Reportes Sagarpa"/>
+  </DemoGroup>
+  <DemoGroup Text="Exportación" Caption="Exportación" BeginCategory="true">
+    <Demo Text="Laboratorio" NavigateUrl="~/Exp/laboratorio.aspx" Title="Laboratorio"/>
+    <Demo Text="Envíos" NavigateUrl="~/Exp/Envios.aspx" Title="Compras de Miel"/>
+  </DemoGroup>
+</Demos>

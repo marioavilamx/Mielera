@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="Este es titulo"  description="" roles="Administrador;Delegado">
+      <siteMapNode title="Alta y Mentenimiento de Entidades" description="Area de Ventas" roles="Administrador">
+        <siteMapNode title="Personas Fisicas" url="~/Entidades/Entidad.aspx" Title="Personas Fisicas" />
+        <siteMapNode title="Personas Morales" url="~/Entidades/Entidad.aspx?pagina=1" Title="Personas Morales"/>
+        <siteMapNode title="Alta de Direcciones" url="~/Entidades/Entidad.aspx?pagina=2" Title="Alta de Direcciones"/>
+        <siteMapNode title="Usuarios" url="~/Entidades/Usuarios.aspx" Title="Usuarios" roles="Administrador"/>
+      </siteMapNode>
+      <siteMapNode title="Anticipos o Suministros" description="Anticipos o Suministros" roles="Administrador;Delegado">
+        <siteMapNode title="Solicitudes" url="~/Solicitudes/Solicitud.aspx" Title="Solicitudes" roles ="Delegado"/>
+        <siteMapNode title="Cortes x Fecha" url="~/Reportes/ImpCortesxFecha.aspx" Title="Cortes x Fecha"  roles="Administrador;Delegado" />
+        <siteMapNode title="Cortes x Delegado" url="~/Reportes/ImpCortesxDelegado.aspx" Title="Cortes x Delegado" roles="Administrador"/>
+        <siteMapNode title="Reporte de Anticipos Entregados" url="~/Reportes/ImpAnticiposEnt.aspx" Title="Reporte de Anticipos Entregados" roles="Administrador"/>
+      </siteMapNode>
+      <siteMapNode title="Envío y Recepción de Tambores" description="Envío y Recepción de Tambores" roles="Administrador;Delegado">
+        <siteMapNode title="Nueva Transferencia" url="~/Tambores/Transferencia.aspx" Title="Nueva Transferencia" roles ="Delegado"/>
+        <siteMapNode title="Historial de Envíos" url="~/Tambores/Transferencia.aspx?pagina=1" Title="Historial de Envios" roles ="Delegado"/>
+        <siteMapNode title="Tambores Recepcionados" url="~/Tambores/HistTambores.aspx" Title="Tambores Recepcionados" roles ="Delegado"/>
+      </siteMapNode>
+      <siteMapNode title="Recepción de Miel" description="Recepción de Miel" roles="Administrador;Delegado">
+        <siteMapNode title="Compra de Miel" url="~/Recepcion/CompraMiel.aspx" Title="Compra de Miel" roles ="Delegado"/>
+        <siteMapNode title="Transferir Compra" url="~/Recepcion/CompraMiel.aspx?pagina=1" Title="Transferir compra" roles ="Delegado"/>
+        <siteMapNode title="Historial de Transferencias de Miel" url="~/Recepcion/CompraMiel.aspx?pagina=2" Title="Historial de Transferencias de Miel" roles ="Delegado"/>
+      </siteMapNode>
+      <siteMapNode title="Recepción de Transferencias" description="Recepcion de Transferencias" roles="Administrador;Delegado">
+        <siteMapNode title="Recepción de Transferencias de Miel" url="~/Transferencias/RecepcioMiel.aspx" Title="Recepcion de Transferencias de Miel" roles ="Delegado"/>
+        <siteMapNode title="Historial de Miel Recepcionada" url="~/Transferencias/RecepcioMiel.aspx?pagina=1" Title="Historial de Miel Recepcionada" roles ="Delegado"/>
+        <siteMapNode title="Trazabilidad de Entrada" url="~/Transferencias/Trazabilidad.aspx" Title="Trazabilidad de Entrada" roles ="Delegado"/>
+      </siteMapNode>
+      <siteMapNode title="Reportes" description="Reportes" roles="Administrador;Delegado">
+        <siteMapNode title="Compras de Miel" url="~/Reportes/ComprasMiel.aspx" Title="Compras de Miel" roles ="Delegado"/>
+        <siteMapNode title="Reportes Sagarpa" url="~/Reportes/SagarpaEnt.aspx" Title="Reportes Sagarpa" roles ="Delegado"/>
+      </siteMapNode>
+      <siteMapNode title="Exportación" description="Exportación" roles="Administrador;Delegado">
+        <siteMapNode title="Laboratorio" url="~/Exp/laboratorio.aspx" Title="Laboratorio" roles ="Delegado"/>
+        <siteMapNode title="Envíos" url="~/Exp/Envios.aspx" Title="Envíos" roles ="Delegado"/>
+      </siteMapNode>
+    </siteMapNode>
+ </siteMap>

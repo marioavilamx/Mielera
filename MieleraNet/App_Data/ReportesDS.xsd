@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportesDS" targetNamespace="http://tempuri.org/ReportesDS.xsd" xmlns:mstns="http://tempuri.org/ReportesDS.xsd" xmlns="http://tempuri.org/ReportesDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportesDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ReportesDS" msprop:Generator_DataSetName="ReportesDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TamboresDT" msprop:Generator_UserTableName="TamboresDT" msprop:Generator_RowDeletedName="TamboresDTRowDeleted" msprop:Generator_RowChangedName="TamboresDTRowChanged" msprop:Generator_RowClassName="TamboresDTRow" msprop:Generator_RowChangingName="TamboresDTRowChanging" msprop:Generator_RowEvArgName="TamboresDTRowChangeEvent" msprop:Generator_RowEvHandlerName="TamboresDTRowChangeEventHandler" msprop:Generator_TableClassName="TamboresDTDataTable" msprop:Generator_TableVarName="tableTamboresDT" msprop:Generator_RowDeletingName="TamboresDTRowDeleting" msprop:Generator_TablePropName="TamboresDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM_TAMBOR" msprop:Generator_UserColumnName="NUM_TAMBOR" msprop:Generator_ColumnPropNameInRow="NUM_TAMBOR" msprop:Generator_ColumnVarNameInTable="columnNUM_TAMBOR" msprop:Generator_ColumnPropNameInTable="NUM_TAMBORColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IDENVIO" msprop:Generator_UserColumnName="IDENVIO" msprop:Generator_ColumnVarNameInTable="columnIDENVIO" msprop:Generator_ColumnPropNameInRow="IDENVIO" msprop:Generator_ColumnPropNameInTable="IDENVIOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="STATUS" msprop:Generator_UserColumnName="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AREA" msprop:Generator_UserColumnName="AREA" msprop:Generator_ColumnVarNameInTable="columnAREA" msprop:Generator_ColumnPropNameInRow="AREA" msprop:Generator_ColumnPropNameInTable="AREAColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="COMPRA" msprop:Generator_UserColumnName="COMPRA" msprop:Generator_ColumnVarNameInTable="columnCOMPRA" msprop:Generator_ColumnPropNameInRow="COMPRA" msprop:Generator_ColumnPropNameInTable="COMPRAColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:length value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MuestrasDT" msprop:Generator_UserTableName="MuestrasDT" msprop:Generator_RowDeletedName="MuestrasDTRowDeleted" msprop:Generator_RowChangedName="MuestrasDTRowChanged" msprop:Generator_RowClassName="MuestrasDTRow" msprop:Generator_RowChangingName="MuestrasDTRowChanging" msprop:Generator_RowEvArgName="MuestrasDTRowChangeEvent" msprop:Generator_RowEvHandlerName="MuestrasDTRowChangeEventHandler" msprop:Generator_TableClassName="MuestrasDTDataTable" msprop:Generator_TableVarName="tableMuestrasDT" msprop:Generator_RowDeletingName="MuestrasDTRowDeleting" msprop:Generator_TablePropName="MuestrasDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDMUESTRA" msprop:Generator_UserColumnName="IDMUESTRA" msprop:Generator_ColumnPropNameInRow="IDMUESTRA" msprop:Generator_ColumnVarNameInTable="columnIDMUESTRA" msprop:Generator_ColumnPropNameInTable="IDMUESTRAColumn" type="xs:string" />
+              <xs:element name="IDMIELTRAN" msprop:Generator_UserColumnName="IDMIELTRAN" msprop:Generator_ColumnPropNameInRow="IDMIELTRAN" msprop:Generator_ColumnVarNameInTable="columnIDMIELTRAN" msprop:Generator_ColumnPropNameInTable="IDMIELTRANColumn" type="xs:int" />
+              <xs:element name="IDBARRIL" msprop:Generator_UserColumnName="IDBARRIL" msprop:Generator_ColumnPropNameInRow="IDBARRIL" msprop:Generator_ColumnVarNameInTable="columnIDBARRIL" msprop:Generator_ColumnPropNameInTable="IDBARRILColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="APICULTOR" msprop:Generator_UserColumnName="APICULTOR" msprop:Generator_ColumnPropNameInRow="APICULTOR" msprop:Generator_ColumnVarNameInTable="columnAPICULTOR" msprop:Generator_ColumnPropNameInTable="APICULTORColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DELEGADO" msprop:Generator_UserColumnName="DELEGADO" msprop:Generator_ColumnPropNameInRow="DELEGADO" msprop:Generator_ColumnVarNameInTable="columnDELEGADO" msprop:Generator_ColumnPropNameInTable="DELEGADOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AREA" msprop:Generator_UserColumnName="AREA" msprop:Generator_ColumnPropNameInRow="AREA" msprop:Generator_ColumnVarNameInTable="columnAREA" msprop:Generator_ColumnPropNameInTable="AREAColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DetalleTrazaEntradaDT" msprop:Generator_UserTableName="DetalleTrazaEntradaDT" msprop:Generator_RowDeletedName="DetalleTrazaEntradaDTRowDeleted" msprop:Generator_RowChangedName="DetalleTrazaEntradaDTRowChanged" msprop:Generator_RowClassName="DetalleTrazaEntradaDTRow" msprop:Generator_RowChangingName="DetalleTrazaEntradaDTRowChanging" msprop:Generator_RowEvArgName="DetalleTrazaEntradaDTRowChangeEvent" msprop:Generator_RowEvHandlerName="DetalleTrazaEntradaDTRowChangeEventHandler" msprop:Generator_TableClassName="DetalleTrazaEntradaDTDataTable" msprop:Generator_TableVarName="tableDetalleTrazaEntradaDT" msprop:Generator_RowDeletingName="DetalleTrazaEntradaDTRowDeleting" msprop:Generator_TablePropName="DetalleTrazaEntradaDT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_UserColumnName="Fecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NUMPROD" msprop:Generator_UserColumnName="NUMPROD" msprop:Generator_ColumnPropNameInRow="NUMPROD" msprop:Generator_ColumnVarNameInTable="columnNUMPROD" msprop:Generator_ColumnPropNameInTable="NUMPRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IDENFI" msprop:Generator_UserColumnName="IDENFI" msprop:Generator_ColumnPropNameInRow="IDENFI" msprop:Generator_ColumnVarNameInTable="columnIDENFI" msprop:Generator_ColumnPropNameInTable="IDENFIColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NOMBRE" msprop:Generator_UserColumnName="NOMBRE" msprop:Generator_ColumnPropNameInRow="NOMBRE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE" msprop:Generator_ColumnPropNameInTable="NOMBREColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TamboresExp" msprop:Generator_UserTableName="TamboresExp" msprop:Generator_RowDeletedName="TamboresExpRowDeleted" msprop:Generator_RowChangedName="TamboresExpRowChanged" msprop:Generator_RowClassName="TamboresExpRow" msprop:Generator_RowChangingName="TamboresExpRowChanging" msprop:Generator_RowEvArgName="TamboresExpRowChangeEvent" msprop:Generator_RowEvHandlerName="TamboresExpRowChangeEventHandler" msprop:Generator_TableClassName="TamboresExpDataTable" msprop:Generator_TableVarName="tableTamboresExp" msprop:Generator_RowDeletingName="TamboresExpRowDeleting" msprop:Generator_TablePropName="TamboresExp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDBARRIL" msprop:Generator_UserColumnName="IDBARRIL" msprop:Generator_ColumnVarNameInTable="columnIDBARRIL" msprop:Generator_ColumnPropNameInRow="IDBARRIL" msprop:Generator_ColumnPropNameInTable="IDBARRILColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="KILOGRAMOS" msprop:Generator_UserColumnName="KILOGRAMOS" msprop:Generator_ColumnVarNameInTable="columnKILOGRAMOS" msprop:Generator_ColumnPropNameInRow="KILOGRAMOS" msprop:Generator_ColumnPropNameInTable="KILOGRAMOSColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TARA" msprop:Generator_UserColumnName="TARA" msprop:Generator_ColumnVarNameInTable="columnTARA" msprop:Generator_ColumnPropNameInRow="TARA" msprop:Generator_ColumnPropNameInTable="TARAColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

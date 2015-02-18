@@ -1,0 +1,870 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BAAD3E28-FB88-4A19-AAB3-515315F321E1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MieleraNet</RootNamespace>
+    <AssemblyName>MieleraNet</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v10.1.Core, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v10.1.Core, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxEditors.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxGridView.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxPivotGrid.v10.1.Export, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxScheduler.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPivotGrid.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v10.1.Core, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v10.1.Extensions, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v10.1.Web, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v10.1, Version=10.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FirebirdSql.Data.FirebirdClient, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WebForms\8.0.0.0__b03f5f7f11d50a3a\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="RoleBasedFormAuthentication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\2010\SolucionWC\WSDelli\Bin\RoleBasedFormAuthentication.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\MainMenu.xml" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Data\OrdenSalida.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdenSalida.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\SiteSettings.cs" />
+    <Compile Include="DAL\AccesoDS.cs" />
+    <Compile Include="DAL\AnticipoDS.cs" />
+    <Compile Include="DAL\CentralDS.cs" />
+    <Compile Include="DAL\CompraMielDS.cs" />
+    <Compile Include="DAL\ConfiguracionDS.cs" />
+    <Compile Include="DAL\EntidadesDS.cs" />
+    <Compile Include="App_Data\ReportesDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportesDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\ExportDS.cs" />
+    <Compile Include="DAL\MuestreoDS.cs" />
+    <Compile Include="DAL\OrdenSalidaDS.cs" />
+    <Compile Include="DAL\RecepTranMielDS.cs" />
+    <Compile Include="DAL\TransferenciasDS.cs" />
+    <Compile Include="DAL\TrazaSalidaSagarpaDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrazaSalidaSagarpaDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\UsuarioDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsuarioDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Entidad.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Entidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Entidad.aspx.designer.cs">
+      <DependentUpon>Entidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Entidades.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Entidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Entidades.aspx.designer.cs">
+      <DependentUpon>Entidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Usuarios.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exp\Envios.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Envios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exp\Envios.aspx.designer.cs">
+      <DependentUpon>Envios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exp\laboratorio.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>laboratorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Exp\laboratorio.aspx.designer.cs">
+      <DependentUpon>laboratorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mielera.Master.cs">
+      <DependentUpon>Mielera.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mielera.Master.designer.cs">
+      <DependentUpon>Mielera.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recepcion\CompraMiel.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CompraMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion\CompraMiel.aspx.designer.cs">
+      <DependentUpon>CompraMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ComprasMiel.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ComprasMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ComprasMiel.aspx.designer.cs">
+      <DependentUpon>ComprasMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpAnticiposEnt.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpAnticiposEnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpAnticiposEnt.aspx.designer.cs">
+      <DependentUpon>ImpAnticiposEnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpCortesxFecha.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpCortesxFecha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpCortesxFecha.aspx.designer.cs">
+      <DependentUpon>ImpCortesxFecha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpCortesxDelegado.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpCortesxDelegado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpCortesxDelegado.aspx.designer.cs">
+      <DependentUpon>ImpCortesxDelegado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repAnticiposEnt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repAnticiposEnt.Designer.cs">
+      <DependentUpon>repAnticiposEnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repCortesxDelegado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repCortesxDelegado.Designer.cs">
+      <DependentUpon>repCortesxDelegado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repCortesxFecha.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repCortesxFecha.Designer.cs">
+      <DependentUpon>repCortesxFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTrazLab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repTrazLab.Designer.cs">
+      <DependentUpon>repTrazLab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpTrazLab.aspx.cs">
+      <DependentUpon>ImpTrazLab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ImpTrazLab.aspx.designer.cs">
+      <DependentUpon>ImpTrazLab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpCertificadoAnalisis.aspx.cs">
+      <DependentUpon>ImpCertificadoAnalisis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ImpCertificadoAnalisis.aspx.designer.cs">
+      <DependentUpon>ImpCertificadoAnalisis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repCertAnalisis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repCertAnalisis.Designer.cs">
+      <DependentUpon>repCertAnalisis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpCompraMiel.aspx.cs">
+      <DependentUpon>ImpCompraMiel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ImpCompraMiel.aspx.designer.cs">
+      <DependentUpon>ImpCompraMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpFisicoQuimico.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpFisicoQuimico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpFisicoQuimico.aspx.designer.cs">
+      <DependentUpon>ImpFisicoQuimico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpSagarpaTrazSal.aspx.cs">
+      <DependentUpon>ImpSagarpaTrazSal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ImpSagarpaTrazSal.aspx.designer.cs">
+      <DependentUpon>ImpSagarpaTrazSal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repCompraMiel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repCompraMiel.Designer.cs">
+      <DependentUpon>repCompraMiel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repFisicoQuimico.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repFisicoQuimico.Designer.cs">
+      <DependentUpon>repFisicoQuimico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTrazaSalSagarpa.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repTrazaSalSagarpa.Designer.cs">
+      <DependentUpon>repTrazaSalSagarpa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpMuestras.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpMuestras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpMuestras.aspx.designer.cs">
+      <DependentUpon>ImpMuestras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpRecepTran.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpRecepTran.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpRecepTran.aspx.designer.cs">
+      <DependentUpon>ImpRecepTran.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpSagarpaTrazEnt.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpSagarpaTrazEnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpSagarpaTrazEnt.aspx.designer.cs">
+      <DependentUpon>ImpSagarpaTrazEnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpTamboresExp.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpTamboresExp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpTamboresExp.aspx.designer.cs">
+      <DependentUpon>ImpTamboresExp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpTransMiel.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ImpTransMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ImpTransMiel.aspx.designer.cs">
+      <DependentUpon>ImpTransMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\OrdenSalida.aspx.cs">
+      <DependentUpon>OrdenSalida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\OrdenSalida.aspx.designer.cs">
+      <DependentUpon>OrdenSalida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\OrdenSalida.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\OrdenSalida.designer.cs">
+      <DependentUpon>OrdenSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repMuestras.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repMuestras.Designer.cs">
+      <DependentUpon>repMuestras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repRecepcionMiel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repRecepcionMiel.Designer.cs">
+      <DependentUpon>repRecepcionMiel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTambExp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repTambExp.Designer.cs">
+      <DependentUpon>repTambExp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTambores.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>repTambores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTambores.aspx.designer.cs">
+      <DependentUpon>repTambores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTamRec.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repTamRec.Designer.cs">
+      <DependentUpon>repTamRec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\RepTransMiel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\RepTransMiel.Designer.cs">
+      <DependentUpon>RepTransMiel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTrazabilidadEnt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repTrazabilidadEnt.Designer.cs">
+      <DependentUpon>repTrazabilidadEnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\repTrazaEntSagarpa.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\repTrazaEntSagarpa.Designer.cs">
+      <DependentUpon>repTrazaEntSagarpa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\SagarpaEnt.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SagarpaEnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\SagarpaEnt.aspx.designer.cs">
+      <DependentUpon>SagarpaEnt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\VisorReport.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>VisorReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\VisorReport.aspx.designer.cs">
+      <DependentUpon>VisorReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes\AntEntregados.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AntEntregados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes\AntEntregados.aspx.designer.cs">
+      <DependentUpon>AntEntregados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes\solicitud.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>solicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitudes\solicitud.aspx.designer.cs">
+      <DependentUpon>solicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambores\HistTambores.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>HistTambores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambores\HistTambores.aspx.designer.cs">
+      <DependentUpon>HistTambores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambores\Tambores.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Tambores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambores\Tambores.aspx.designer.cs">
+      <DependentUpon>Tambores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambores\Transferencia.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Transferencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambores\Transferencia.aspx.designer.cs">
+      <DependentUpon>Transferencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencias\HistMiel.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>HistMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencias\HistMiel.aspx.designer.cs">
+      <DependentUpon>HistMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencias\RecepcioMiel.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>RecepcioMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencias\RecepcioMiel.aspx.designer.cs">
+      <DependentUpon>RecepcioMiel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencias\Trazabilidad.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Trazabilidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencias\Trazabilidad.aspx.designer.cs">
+      <DependentUpon>Trazabilidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web\MieleraHttpApplication.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\site-config.xml" />
+    <Content Include="App_Themes\Abejas01.jpg" />
+    <Content Include="App_Themes\orange.jpg" />
+    <Content Include="App_Themes\security_keyandlock.png" />
+    <Content Include="App_Themes\tiramiel.JPG" />
+    <Content Include="App_Themes\user.png" />
+    <Content Include="CSS\portal.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="Entidades\Entidad.aspx" />
+    <Content Include="Entidades\Entidades.aspx" />
+    <Content Include="Entidades\Usuarios.aspx" />
+    <Content Include="Exp\Envios.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\bgError.png" />
+    <Content Include="Images\clear.png" />
+    <Content Include="Images\Demo.jpg" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\enconstruc.jpg" />
+    <Content Include="Images\encontruc2.jpg" />
+    <Content Include="Images\Home.png" />
+    <Content Include="Images\iconError.png" />
+    <Content Include="Images\Imagen.png" />
+    <Content Include="Images\LOGOAGRO.PNG" />
+    <Content Include="Images\logo_cgg.PNG" />
+    <Content Include="Images\MIEL INT LOGOF5FINALALTA.jpg" />
+    <Content Include="Images\miel.JPG" />
+    <Content Include="Images\new.png" />
+    <Content Include="Images\sagarpa01.PNG" />
+    <Content Include="Images\senasica.jpg" />
+    <Content Include="Images\yes.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Mielera.Master" />
+    <Content Include="Recepcion\CompraMiel.aspx" />
+    <Content Include="Reportes\ComprasMiel.aspx" />
+    <Content Include="Reportes\ImpMuestras.aspx" />
+    <Content Include="Reportes\ImpRecepTran.aspx" />
+    <Content Include="Reportes\ImpSagarpaTrazEnt.aspx" />
+    <Content Include="Reportes\ImpTransMiel.aspx" />
+    <Content Include="Reportes\repTambores.aspx" />
+    <Content Include="Reportes\SagarpaEnt.aspx" />
+    <Content Include="Reportes\VisorReport.aspx" />
+    <Content Include="Tambores\HistTambores.aspx" />
+    <Content Include="Tambores\Tambores.aspx" />
+    <Content Include="Tambores\Transferencia.aspx" />
+    <Content Include="Transferencias\HistMiel.aspx" />
+    <Content Include="Transferencias\RecepcioMiel.aspx" />
+    <Content Include="Transferencias\Trazabilidad.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Reportes\repAnticiposEnt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repAnticiposEnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repCortesxDelegado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repCortesxDelegado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repCortesxFecha.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repCortesxFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repTrazLab.resx">
+      <DependentUpon>repTrazLab.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repCertAnalisis.resx">
+      <DependentUpon>repCertAnalisis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repCompraMiel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repCompraMiel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repFisicoQuimico.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repFisicoQuimico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repTrazaSalSagarpa.resx">
+      <DependentUpon>repTrazaSalSagarpa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\OrdenSalida.resx">
+      <DependentUpon>OrdenSalida.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repMuestras.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repMuestras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repRecepcionMiel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repRecepcionMiel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repTambExp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repTambExp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repTamRec.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repTamRec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\RepTransMiel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RepTransMiel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repTrazabilidadEnt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repTrazabilidadEnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\repTrazaEntSagarpa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>repTrazaEntSagarpa.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Data\OrdenSalida.xsc">
+      <DependentUpon>OrdenSalida.xsd</DependentUpon>
+    </None>
+    <None Include="App_Data\OrdenSalida.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrdenSalida.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Data\OrdenSalida.xss">
+      <DependentUpon>OrdenSalida.xsd</DependentUpon>
+    </None>
+    <None Include="App_Data\ReportesDS.xsc">
+      <DependentUpon>ReportesDS.xsd</DependentUpon>
+    </None>
+    <None Include="App_Data\ReportesDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportesDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Data\ReportesDS.xss">
+      <DependentUpon>ReportesDS.xsd</DependentUpon>
+    </None>
+    <Content Include="App_Themes\SoftOrange\ASPxButton.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxButtonEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxCalendar.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxCallbackPanel.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxCaptcha.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxCheckBox.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxCloudControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxColorEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxComboBox.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxDataView.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxDateEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxDateNavigator.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxDropDownEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxFilterControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxGridView.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxHeadline.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxHtmlEditor.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxHyperLink.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxLabel.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxListBox.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxLoadingPanel.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxMemo.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxMenu.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxNavBar.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxNewsControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxPageControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxPager.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxPivotGrid.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxPopupControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxPopupMenu.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxProgressBar.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxRadioButton.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxRadioButtonList.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxRatingControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxRoundPanel.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxScheduler.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxSiteMapControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxSpellChecker.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxSpinEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxSplitter.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxTabControl.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxTextBox.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxTimeEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxTitleIndex.skin" />
+    <Content Include="App_Themes\SoftOrange\ASPxTreeList.skin" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonBackDis.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonCheckedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonEditButtonBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonEditButtonBackDis.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonHoverBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtButtonPressedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarButtonBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarButtonHoverBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarButtonPressedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarFootBtn.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarFootBtnH.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarFootBtnP.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtCalendarHeader.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtDropDownButtonHoverBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtDropDownButtonPressedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinDecBtnBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinIncBtnBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinIncBtnHBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinIncBtnPBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinLargeIncBtnBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinLargeIncBtnHBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\edtSpinLargeIncBtnPBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\Editors\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\Editors\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\Editors\styles.css" />
+    <Content Include="App_Themes\SoftOrange\GridView\gvGroupPanelBackground.gif" />
+    <Content Include="App_Themes\SoftOrange\GridView\gvGroupRowBack.gif" />
+    <Content Include="App_Themes\SoftOrange\GridView\gvLoadingOnStatusBar.gif" />
+    <Content Include="App_Themes\SoftOrange\GridView\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\GridView\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\GridView\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\GridView\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\GridView\styles.css" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpBottomEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpBottomLeftCorner.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpBottomRightCorner.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpHeaderBack.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpHeaderLeftEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpHeaderRightEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpLeftEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpNoHeaderTopEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpNoHeaderTopLeftCorner.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpNoHeaderTopRightCorner.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpRightEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpTopEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpTopLeftCorner.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\RoundPanel\herpTopRightCorner.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\styles.css" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\tbItemBack.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\tbItemBackS.png" />
+    <Content Include="App_Themes\SoftOrange\HtmlEditor\tbSeparatorBack.png" />
+    <Content Include="App_Themes\SoftOrange\MonthEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\pcFooterBack.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\pcHeaderBack.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\pgAreaBackground.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\pgSortDownButton.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\pgSortUpButton.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\PivotGrid\styles.css" />
+    <Content Include="App_Themes\SoftOrange\ReportToolbar.skin" />
+    <Content Include="App_Themes\SoftOrange\ReportViewer.skin" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\AdaBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ButtonBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ButtonHoverBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ButtonPressedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\HeaderAltBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\HeaderBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\mItemChecked.png" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\NavigationButtonBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ResHeaderBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ToolbarBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ViewSelectorButtonBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ViewSelectorButtonCheckedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ViewSelectorButtonHoverBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\CssImage\ViewSelectorButtonPressedBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\Scheduler\styles.css" />
+    <Content Include="App_Themes\SoftOrange\SpellChecker\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\SpellChecker\scErrorUnderline.gif" />
+    <Content Include="App_Themes\SoftOrange\SpellChecker\styles.css" />
+    <Content Include="App_Themes\SoftOrange\TreeList\CssImage\TreeLineFirst.gif" />
+    <Content Include="App_Themes\SoftOrange\TreeList\CssImage\TreeLineLast.gif" />
+    <Content Include="App_Themes\SoftOrange\TreeList\CssImage\TreeLineMiddle.gif" />
+    <Content Include="App_Themes\SoftOrange\TreeList\CssImage\TreeLineRoot.gif" />
+    <Content Include="App_Themes\SoftOrange\TreeList\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\TreeList\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\TreeList\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\TreeList\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\TreeList\styles.css" />
+    <Content Include="App_Themes\SoftOrange\Web\dvPagerPanelBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\Loading.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\mItemBack.png" />
+    <Content Include="App_Themes\SoftOrange\Web\mItemBackH.png" />
+    <Content Include="App_Themes\SoftOrange\Web\mSeparatorBack.png" />
+    <Content Include="App_Themes\SoftOrange\Web\mVSeparatorBack.png" />
+    <Content Include="App_Themes\SoftOrange\Web\nbHeaderBack.png" />
+    <Content Include="App_Themes\SoftOrange\Web\nbHeaderHBack.png" />
+    <Content Include="App_Themes\SoftOrange\Web\pcFooterBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\pcHeaderBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\pcModalBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rcMapImage.png" />
+    <Content Include="App_Themes\SoftOrange\Web\rpBottomEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpHeaderBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpHeaderLeftEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpHeaderRightEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpLeftEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpNoHeaderTopEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpRightEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\rpTopEdge.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\splResizingPointer.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\Web\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\sprite.png" />
+    <Content Include="App_Themes\SoftOrange\Web\styles.css" />
+    <Content Include="App_Themes\SoftOrange\Web\tcATabBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\tcATabBottomBack.gif" />
+    <Content Include="App_Themes\SoftOrange\Web\tcTabBack.gif" />
+    <Content Include="App_Themes\SoftOrange\WeekDaysEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\WeekOfMonthEdit.skin" />
+    <Content Include="App_Themes\SoftOrange\XtraReports\sprite.css" />
+    <Content Include="App_Themes\SoftOrange\XtraReports\sprite.gif" />
+    <Content Include="App_Themes\SoftOrange\XtraReports\sprite.png" />
+    <Content Include="Exp\laboratorio.aspx" />
+    <Content Include="Images\ASPxRoundPanel\80713485\BottomLeftCorner.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\BottomRightCorner.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\HeaderContent.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\HeaderLeftEdge.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\HeaderRightEdge.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\NoHeaderTopLeftCorner.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\NoHeaderTopRightCorner.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\TopLeftCorner.png" />
+    <Content Include="Images\ASPxRoundPanel\80713485\TopRightCorner.png" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\enviar.jpg" />
+    <Content Include="Images\gabriela.JPG" />
+    <Content Include="Images\integradora.JPG" />
+    <Content Include="Images\Logo_PM.jpg" />
+    <Content Include="Images\Profesionales.jpg" />
+    <Content Include="Images\update.png" />
+    <Content Include="Reportes\ImpAnticiposEnt.aspx" />
+    <Content Include="Reportes\ImpCortesxFecha.aspx" />
+    <Content Include="Reportes\ImpCortesxDelegado.aspx" />
+    <Content Include="Reportes\ImpTrazLab.aspx" />
+    <Content Include="Reportes\ImpCertificadoAnalisis.aspx" />
+    <Content Include="Reportes\ImpCompraMiel.aspx" />
+    <Content Include="Reportes\ImpFisicoQuimico.aspx" />
+    <Content Include="Reportes\ImpSagarpaTrazSal.aspx" />
+    <Content Include="Reportes\ImpTamboresExp.aspx" />
+    <Content Include="Reportes\OrdenSalida.aspx" />
+    <Content Include="Solicitudes\AntEntregados.aspx" />
+    <Content Include="Solicitudes\solicitud.aspx" />
+    <None Include="DAL\TrazaSalidaSagarpaDS.xsc">
+      <DependentUpon>TrazaSalidaSagarpaDS.xsd</DependentUpon>
+    </None>
+    <None Include="DAL\TrazaSalidaSagarpaDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TrazaSalidaSagarpaDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAL\TrazaSalidaSagarpaDS.xss">
+      <DependentUpon>TrazaSalidaSagarpaDS.xsd</DependentUpon>
+    </None>
+    <None Include="DAL\UsuarioDS.xsc">
+      <DependentUpon>UsuarioDS.xsd</DependentUpon>
+    </None>
+    <None Include="DAL\UsuarioDS.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsuarioDS.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DAL\UsuarioDS.xss">
+      <DependentUpon>UsuarioDS.xsd</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50480</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

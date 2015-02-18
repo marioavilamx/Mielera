@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TrazaSalidaSagarpaDS" targetNamespace="http://tempuri.org/TrazaSalidaSagarpaDS.xsd" xmlns:mstns="http://tempuri.org/TrazaSalidaSagarpaDS.xsd" xmlns="http://tempuri.org/TrazaSalidaSagarpaDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TrazaSalidaSagarpaDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="TrazaSalidaSagarpaDS" msprop:Generator_DataSetName="TrazaSalidaSagarpaDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TrazSalida" msprop:Generator_UserTableName="TrazSalida" msprop:Generator_RowDeletedName="TrazSalidaRowDeleted" msprop:Generator_RowChangedName="TrazSalidaRowChanged" msprop:Generator_RowClassName="TrazSalidaRow" msprop:Generator_RowChangingName="TrazSalidaRowChanging" msprop:Generator_RowEvArgName="TrazSalidaRowChangeEvent" msprop:Generator_RowEvHandlerName="TrazSalidaRowChangeEventHandler" msprop:Generator_TableClassName="TrazSalidaDataTable" msprop:Generator_TableVarName="tableTrazSalida" msprop:Generator_RowDeletingName="TrazSalidaRowDeleting" msprop:Generator_TablePropName="TrazSalida">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha" msprop:Generator_UserColumnName="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Homogenizado" msprop:Generator_UserColumnName="Homogenizado" msprop:Generator_ColumnVarNameInTable="columnHomogenizado" msprop:Generator_ColumnPropNameInRow="Homogenizado" msprop:Generator_ColumnPropNameInTable="HomogenizadoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Lote" msprop:Generator_UserColumnName="Lote" msprop:Generator_ColumnVarNameInTable="columnLote" msprop:Generator_ColumnPropNameInRow="Lote" msprop:Generator_ColumnPropNameInTable="LoteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Kg" msprop:Generator_UserColumnName="Kg" msprop:Generator_ColumnVarNameInTable="columnKg" msprop:Generator_ColumnPropNameInRow="Kg" msprop:Generator_ColumnPropNameInTable="KgColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="idApicultor" msprop:Generator_UserColumnName="idApicultor" msprop:Generator_ColumnVarNameInTable="columnidApicultor" msprop:Generator_ColumnPropNameInRow="idApicultor" msprop:Generator_ColumnPropNameInTable="idApicultorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VolumenKg" msprop:Generator_UserColumnName="VolumenKg" msprop:Generator_ColumnVarNameInTable="columnVolumenKg" msprop:Generator_ColumnPropNameInRow="VolumenKg" msprop:Generator_ColumnPropNameInTable="VolumenKgColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="FechaSalida" msprop:Generator_UserColumnName="FechaSalida" msprop:Generator_ColumnPropNameInRow="FechaSalida" msprop:Generator_ColumnVarNameInTable="columnFechaSalida" msprop:Generator_ColumnPropNameInTable="FechaSalidaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Destino" msprop:Generator_UserColumnName="Destino" msprop:Generator_ColumnPropNameInRow="Destino" msprop:Generator_ColumnVarNameInTable="columnDestino" msprop:Generator_ColumnPropNameInTable="DestinoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ExportKg" msprop:Generator_UserColumnName="ExportKg" msprop:Generator_ColumnPropNameInRow="ExportKg" msprop:Generator_ColumnVarNameInTable="columnExportKg" msprop:Generator_ColumnPropNameInTable="ExportKgColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="IDENFI" msprop:Generator_UserColumnName="IDENFI" msprop:Generator_ColumnVarNameInTable="columnIDENFI" msprop:Generator_ColumnPropNameInRow="IDENFI" msprop:Generator_ColumnPropNameInTable="IDENFIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NacionalKg" msprop:Generator_UserColumnName="NacionalKg" msprop:Generator_ColumnPropNameInRow="NacionalKg" msprop:Generator_ColumnVarNameInTable="columnNacionalKg" msprop:Generator_ColumnPropNameInTable="NacionalKgColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ConsumidorKg" msprop:Generator_UserColumnName="ConsumidorKg" msprop:Generator_ColumnPropNameInRow="ConsumidorKg" msprop:Generator_ColumnVarNameInTable="columnConsumidorKg" msprop:Generator_ColumnPropNameInTable="ConsumidorKgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
