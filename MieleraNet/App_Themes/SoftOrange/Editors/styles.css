@@ -893,20 +893,12 @@ a.dxfcValue_SoftOrange
     font-size: 0px;
 }
 .dxeColorTableCellSelected_SoftOrange {
-    padding-left: 2px!important;
-    padding-bottom: 2px!important;
-    padding-top: 2px!important;
-    padding-right: 2px!important;
-
+    padding: 2px;
     background-color: #CBCBCB;
     border: solid 1px #888888;
 }
 .dxeColorTableCellHover_SoftOrange {
-    padding-left: 2px!important;
-    padding-bottom: 2px!important;
-    padding-top: 2px!important;
-    padding-right: 2px!important;
-    
+    padding: 2px;
     background-color: #F2F2F2;
     border: solid 1px #888888;
 }
