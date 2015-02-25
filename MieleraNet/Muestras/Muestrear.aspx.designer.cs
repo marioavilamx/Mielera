@@ -26,7 +26,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel L1;
+        protected global::DevExpress.Web.ASPxLabel L1;
         
         /// <summary>
         /// cmbTranferencias control.
@@ -35,7 +35,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbTranferencias;
+        protected global::DevExpress.Web.ASPxComboBox cmbTranferencias;
         
         /// <summary>
         /// chkReimp control.
@@ -44,7 +44,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkReimp;
+        protected global::DevExpress.Web.ASPxCheckBox chkReimp;
         
         /// <summary>
         /// panelGeneral control.
@@ -53,7 +53,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelGeneral;
+        protected global::DevExpress.Web.ASPxRoundPanel panelGeneral;
         
         /// <summary>
         /// lbHora2 control.
@@ -62,7 +62,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbHora2;
+        protected global::DevExpress.Web.ASPxLabel lbHora2;
         
         /// <summary>
         /// lbDelegado control.
@@ -71,7 +71,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbDelegado;
+        protected global::DevExpress.Web.ASPxLabel lbDelegado;
         
         /// <summary>
         /// lbArea control.
@@ -80,7 +80,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbArea;
+        protected global::DevExpress.Web.ASPxLabel lbArea;
         
         /// <summary>
         /// gridTamb control.
@@ -89,7 +89,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gridTamb;
+        protected global::DevExpress.Web.ASPxGridView gridTamb;
         
         /// <summary>
         /// btnReimprimir control.
@@ -98,7 +98,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnReimprimir;
+        protected global::DevExpress.Web.ASPxButton btnReimprimir;
         
         /// <summary>
         /// btnMuestrear control.
@@ -107,7 +107,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnMuestrear;
+        protected global::DevExpress.Web.ASPxButton btnMuestrear;
         
         /// <summary>
         /// btnAceptaTran control.
@@ -116,7 +116,7 @@ namespace MieleraNet.Muestras {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnAceptaTran;
+        protected global::DevExpress.Web.ASPxButton btnAceptaTran;
         
         /// <summary>
         /// dsNoMuestreados control.

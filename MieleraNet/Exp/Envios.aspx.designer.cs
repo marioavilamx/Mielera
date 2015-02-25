@@ -26,7 +26,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxTabControl.ASPxPageControl pagecontrolExport;
+        protected global::DevExpress.Web.ASPxPageControl pagecontrolExport;
         
         /// <summary>
         /// panelContratoExport control.
@@ -35,7 +35,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelContratoExport;
+        protected global::DevExpress.Web.ASPxRoundPanel panelContratoExport;
         
         /// <summary>
         /// lb22 control.
@@ -44,7 +44,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb22;
+        protected global::DevExpress.Web.ASPxLabel lb22;
         
         /// <summary>
         /// cmbContratoExp control.
@@ -53,7 +53,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDropDownEdit cmbContratoExp;
+        protected global::DevExpress.Web.ASPxDropDownEdit cmbContratoExp;
         
         /// <summary>
         /// pagecontrolExpCont control.
@@ -62,7 +62,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxTabControl.ASPxPageControl pagecontrolExpCont;
+        protected global::DevExpress.Web.ASPxPageControl pagecontrolExpCont;
         
         /// <summary>
         /// gridContExp control.
@@ -71,7 +71,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gridContExp;
+        protected global::DevExpress.Web.ASPxGridView gridContExp;
         
         /// <summary>
         /// callbackPanel control.
@@ -80,7 +80,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxCallbackPanel.ASPxCallbackPanel callbackPanel;
+        protected global::DevExpress.Web.ASPxCallbackPanel callbackPanel;
         
         /// <summary>
         /// panelBookig control.
@@ -89,7 +89,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelBookig;
+        protected global::DevExpress.Web.ASPxRoundPanel panelBookig;
         
         /// <summary>
         /// lb31 control.
@@ -98,7 +98,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb31;
+        protected global::DevExpress.Web.ASPxLabel lb31;
         
         /// <summary>
         /// edtNoBK control.
@@ -107,7 +107,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtNoBK;
+        protected global::DevExpress.Web.ASPxTextBox edtNoBK;
         
         /// <summary>
         /// lb32 control.
@@ -116,7 +116,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb32;
+        protected global::DevExpress.Web.ASPxLabel lb32;
         
         /// <summary>
         /// edtFrom control.
@@ -125,7 +125,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtFrom;
+        protected global::DevExpress.Web.ASPxTextBox edtFrom;
         
         /// <summary>
         /// lb33 control.
@@ -134,7 +134,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb33;
+        protected global::DevExpress.Web.ASPxLabel lb33;
         
         /// <summary>
         /// edtTo control.
@@ -143,7 +143,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtTo;
+        protected global::DevExpress.Web.ASPxTextBox edtTo;
         
         /// <summary>
         /// lb34 control.
@@ -152,7 +152,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb34;
+        protected global::DevExpress.Web.ASPxLabel lb34;
         
         /// <summary>
         /// edtSalida control.
@@ -161,7 +161,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtSalida;
+        protected global::DevExpress.Web.ASPxDateEdit edtSalida;
         
         /// <summary>
         /// lb35 control.
@@ -170,7 +170,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb35;
+        protected global::DevExpress.Web.ASPxLabel lb35;
         
         /// <summary>
         /// edtLlegada control.
@@ -179,7 +179,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtLlegada;
+        protected global::DevExpress.Web.ASPxDateEdit edtLlegada;
         
         /// <summary>
         /// btnGrabaBK control.
@@ -188,7 +188,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGrabaBK;
+        protected global::DevExpress.Web.ASPxButton btnGrabaBK;
         
         /// <summary>
         /// panelPlan control.
@@ -197,7 +197,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelPlan;
+        protected global::DevExpress.Web.ASPxRoundPanel panelPlan;
         
         /// <summary>
         /// gridPlan control.
@@ -206,7 +206,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gridPlan;
+        protected global::DevExpress.Web.ASPxGridView gridPlan;
         
         /// <summary>
         /// panelIntinerario control.
@@ -215,7 +215,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelIntinerario;
+        protected global::DevExpress.Web.ASPxRoundPanel panelIntinerario;
         
         /// <summary>
         /// gridIntinerario control.
@@ -224,7 +224,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gridIntinerario;
+        protected global::DevExpress.Web.ASPxGridView gridIntinerario;
         
         /// <summary>
         /// callbackPanelOS control.
@@ -233,7 +233,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxCallbackPanel.ASPxCallbackPanel callbackPanelOS;
+        protected global::DevExpress.Web.ASPxCallbackPanel callbackPanelOS;
         
         /// <summary>
         /// panelOS control.
@@ -242,7 +242,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelOS;
+        protected global::DevExpress.Web.ASPxRoundPanel panelOS;
         
         /// <summary>
         /// edtFechaOS control.
@@ -251,7 +251,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtFechaOS;
+        protected global::DevExpress.Web.ASPxDateEdit edtFechaOS;
         
         /// <summary>
         /// edtOrigenOS control.
@@ -260,7 +260,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtOrigenOS;
+        protected global::DevExpress.Web.ASPxTextBox edtOrigenOS;
         
         /// <summary>
         /// lb41 control.
@@ -269,7 +269,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb41;
+        protected global::DevExpress.Web.ASPxLabel lb41;
         
         /// <summary>
         /// edtDestinoOS control.
@@ -278,7 +278,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtDestinoOS;
+        protected global::DevExpress.Web.ASPxTextBox edtDestinoOS;
         
         /// <summary>
         /// panelOS2 control.
@@ -287,7 +287,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelOS2;
+        protected global::DevExpress.Web.ASPxRoundPanel panelOS2;
         
         /// <summary>
         /// edtLoteOS control.
@@ -296,7 +296,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtLoteOS;
+        protected global::DevExpress.Web.ASPxComboBox edtLoteOS;
         
         /// <summary>
         /// edtTipoOS control.
@@ -305,7 +305,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtTipoOS;
+        protected global::DevExpress.Web.ASPxTextBox edtTipoOS;
         
         /// <summary>
         /// edtContenedorOS control.
@@ -314,7 +314,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtContenedorOS;
+        protected global::DevExpress.Web.ASPxTextBox edtContenedorOS;
         
         /// <summary>
         /// edtSelloOS control.
@@ -323,7 +323,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtSelloOS;
+        protected global::DevExpress.Web.ASPxTextBox edtSelloOS;
         
         /// <summary>
         /// edtContratoOS control.
@@ -332,7 +332,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtContratoOS;
+        protected global::DevExpress.Web.ASPxTextBox edtContratoOS;
         
         /// <summary>
         /// edtTamboresOS control.
@@ -341,7 +341,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtTamboresOS;
+        protected global::DevExpress.Web.ASPxTextBox edtTamboresOS;
         
         /// <summary>
         /// edtPesoOS control.
@@ -350,7 +350,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtPesoOS;
+        protected global::DevExpress.Web.ASPxTextBox edtPesoOS;
         
         /// <summary>
         /// edtFleteraOS control.
@@ -359,7 +359,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtFleteraOS;
+        protected global::DevExpress.Web.ASPxTextBox edtFleteraOS;
         
         /// <summary>
         /// edtOperador control.
@@ -368,7 +368,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtOperador;
+        protected global::DevExpress.Web.ASPxComboBox edtOperador;
         
         /// <summary>
         /// edtPlacas control.
@@ -377,7 +377,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtPlacas;
+        protected global::DevExpress.Web.ASPxTextBox edtPlacas;
         
         /// <summary>
         /// btnGrabaOS control.
@@ -386,7 +386,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGrabaOS;
+        protected global::DevExpress.Web.ASPxButton btnGrabaOS;
         
         /// <summary>
         /// btnImprimeReport control.
@@ -395,7 +395,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnImprimeReport;
+        protected global::DevExpress.Web.ASPxButton btnImprimeReport;
         
         /// <summary>
         /// pcCargaArch control.
@@ -404,7 +404,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPopupControl.ASPxPopupControl pcCargaArch;
+        protected global::DevExpress.Web.ASPxPopupControl pcCargaArch;
         
         /// <summary>
         /// lbArchivo control.
@@ -413,7 +413,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbArchivo;
+        protected global::DevExpress.Web.ASPxLabel lbArchivo;
         
         /// <summary>
         /// uploadControl control.
@@ -422,7 +422,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxUploadControl.ASPxUploadControl uploadControl;
+        protected global::DevExpress.Web.ASPxUploadControl uploadControl;
         
         /// <summary>
         /// btnOK control.
@@ -431,7 +431,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOK;
+        protected global::DevExpress.Web.ASPxButton btnOK;
         
         /// <summary>
         /// hfCargaArch control.
@@ -440,7 +440,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxHiddenField.ASPxHiddenField hfCargaArch;
+        protected global::DevExpress.Web.ASPxHiddenField hfCargaArch;
         
         /// <summary>
         /// pcCheck control.
@@ -449,7 +449,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPopupControl.ASPxPopupControl pcCheck;
+        protected global::DevExpress.Web.ASPxPopupControl pcCheck;
         
         /// <summary>
         /// lbChkList control.
@@ -458,7 +458,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbChkList;
+        protected global::DevExpress.Web.ASPxLabel lbChkList;
         
         /// <summary>
         /// chkListo control.
@@ -467,7 +467,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkListo;
+        protected global::DevExpress.Web.ASPxCheckBox chkListo;
         
         /// <summary>
         /// btnOK2 control.
@@ -476,7 +476,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOK2;
+        protected global::DevExpress.Web.ASPxButton btnOK2;
         
         /// <summary>
         /// Relacion control.
@@ -485,7 +485,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel Relacion;
+        protected global::DevExpress.Web.ASPxRoundPanel Relacion;
         
         /// <summary>
         /// lb2 control.
@@ -494,7 +494,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb2;
+        protected global::DevExpress.Web.ASPxLabel lb2;
         
         /// <summary>
         /// cmbContrato control.
@@ -503,7 +503,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDropDownEdit cmbContrato;
+        protected global::DevExpress.Web.ASPxDropDownEdit cmbContrato;
         
         /// <summary>
         /// lb3 control.
@@ -512,7 +512,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb3;
+        protected global::DevExpress.Web.ASPxLabel lb3;
         
         /// <summary>
         /// cmbTipExp control.
@@ -521,7 +521,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbTipExp;
+        protected global::DevExpress.Web.ASPxComboBox cmbTipExp;
         
         /// <summary>
         /// btnGrabar control.
@@ -530,7 +530,7 @@ namespace MieleraNet.Exp {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGrabar;
+        protected global::DevExpress.Web.ASPxButton btnGrabar;
         
         /// <summary>
         /// dsCont control.

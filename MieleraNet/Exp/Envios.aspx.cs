@@ -9,9 +9,9 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using MieleraNet.DAL;
-using DevExpress.Web.ASPxGridView;
-using DevExpress.Web.ASPxEditors;
-using DevExpress.Web.ASPxUploadControl;
+using DevExpress.Web;
+/*using DevExpress.Web.ASPxEditors;
+using DevExpress.Web.ASPxUploadControl;*/
 using System.IO;
 using MieleraNet.Reportes;
 using DevExpress.XtraReports.UI;
@@ -89,7 +89,7 @@ namespace MieleraNet.Exp
 
         }
 
-        protected void gridContratos_CustomJSProperties(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewClientJSPropertiesEventArgs e)
+        protected void gridContratos_CustomJSProperties(object sender, ASPxGridViewClientJSPropertiesEventArgs e)
         {
             ASPxGridView grid = (ASPxGridView)cmbContrato.FindControl("gridContratos");
 
@@ -180,7 +180,7 @@ namespace MieleraNet.Exp
             }
         }
 
-        protected void uploadControl_FileUploadComplete(object sender, DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs e)
+        protected void uploadControl_FileUploadComplete(object sender, FileUploadCompleteEventArgs e)
         {
             e.CallbackData = SavePostedFile(e.UploadedFile);
         }
@@ -259,7 +259,7 @@ namespace MieleraNet.Exp
         
         }
 
-        protected void pagecontrolExpCont_ActiveTabChanging(object source, DevExpress.Web.ASPxTabControl.TabControlCancelEventArgs e)
+        protected void pagecontrolExpCont_ActiveTabChanging(object source, TabControlCancelEventArgs e)
         {
             
             //e.Cancel = true;
@@ -294,7 +294,7 @@ namespace MieleraNet.Exp
         
 
 
-        protected void callbackPanel_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e)
+        protected void callbackPanel_Callback(object sender, CallbackEventArgsBase e)
         {
             //Cuando se cambie el contrato tambien se cambia el booking si es que se tiene
             ExportDS export = new ExportDS();
@@ -334,7 +334,7 @@ namespace MieleraNet.Exp
 
         }
 
-        protected void callbackPanelOS_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e)
+        protected void callbackPanelOS_Callback(object sender, CallbackEventArgsBase e)
         {
             ExportDS export = new ExportDS();
             //Cuando cambie el contrato tambien cambia el panel de la orden de salida

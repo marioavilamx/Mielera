@@ -8,12 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxGridView;
-using DevExpress.Web.ASPxClasses;
-using DevExpress.Web.ASPxEditors;
-using DevExpress.Web.ASPxPopupControl;
-using DevExpress.Web.ASPxTabControl;
-using DevExpress.Web.ASPxRoundPanel;
+using DevExpress.Web;
 using MieleraNet.DAL;
 
 namespace MieleraNet.Recepcion
@@ -65,7 +60,7 @@ namespace MieleraNet.Recepcion
             
         }
 
-        protected void gridApicultor_CustomJSProperties(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewClientJSPropertiesEventArgs e)
+        protected void gridApicultor_CustomJSProperties(object sender, DevExpress.Web.ASPxGridViewClientJSPropertiesEventArgs e)
         {
             ASPxGridView grid = (ASPxGridView)DropDownEdit.FindControl("gridApicultor");
             
@@ -353,7 +348,7 @@ namespace MieleraNet.Recepcion
 
         protected void gridTambEnv_CommandButtonInitialize(object sender, ASPxGridViewCommandButtonEventArgs e)
         {
-            /*if (e.ButtonType == DevExpress.Web.ASPxGridView.ColumnCommandButtonType.SelectCheckbox)
+            /*if (e.ButtonType == DevExpress.Web.ColumnCommandButtonType.SelectCheckbox)
             {
                 string strMuestreado = (string)gridTambEnv.GetRowValues(e.VisibleIndex, "STATUS");
                 if (strMuestreado == "SI")

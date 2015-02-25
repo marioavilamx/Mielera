@@ -26,7 +26,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxTabControl.ASPxPageControl ASPxPageControl1;
+        protected global::DevExpress.Web.ASPxPageControl ASPxPageControl1;
         
         /// <summary>
         /// RelacionEnt control.
@@ -35,7 +35,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel RelacionEnt;
+        protected global::DevExpress.Web.ASPxRoundPanel RelacionEnt;
         
         /// <summary>
         /// chkNombre control.
@@ -44,7 +44,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkNombre;
+        protected global::DevExpress.Web.ASPxCheckBox chkNombre;
         
         /// <summary>
         /// lb1 control.
@@ -53,7 +53,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb1;
+        protected global::DevExpress.Web.ASPxLabel lb1;
         
         /// <summary>
         /// cmbAnio control.
@@ -62,7 +62,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbAnio;
+        protected global::DevExpress.Web.ASPxComboBox cmbAnio;
         
         /// <summary>
         /// lb2 control.
@@ -71,7 +71,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lb2;
+        protected global::DevExpress.Web.ASPxLabel lb2;
         
         /// <summary>
         /// cmbLotes control.
@@ -80,7 +80,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbLotes;
+        protected global::DevExpress.Web.ASPxComboBox cmbLotes;
         
         /// <summary>
         /// btnGenEntrada control.
@@ -89,7 +89,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGenEntrada;
+        protected global::DevExpress.Web.ASPxButton btnGenEntrada;
         
         /// <summary>
         /// btnGenEntradaIntegradora control.
@@ -98,7 +98,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGenEntradaIntegradora;
+        protected global::DevExpress.Web.ASPxButton btnGenEntradaIntegradora;
         
         /// <summary>
         /// dsLotes control.
@@ -125,7 +125,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel Relacion;
+        protected global::DevExpress.Web.ASPxRoundPanel Relacion;
         
         /// <summary>
         /// ASPxLabel13 control.
@@ -134,7 +134,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel ASPxLabel13;
+        protected global::DevExpress.Web.ASPxLabel ASPxLabel13;
         
         /// <summary>
         /// cmbAnioSal control.
@@ -143,7 +143,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbAnioSal;
+        protected global::DevExpress.Web.ASPxComboBox cmbAnioSal;
         
         /// <summary>
         /// ASPxLabel14 control.
@@ -152,7 +152,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel ASPxLabel14;
+        protected global::DevExpress.Web.ASPxLabel ASPxLabel14;
         
         /// <summary>
         /// cmbLotesSal control.
@@ -161,7 +161,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbLotesSal;
+        protected global::DevExpress.Web.ASPxComboBox cmbLotesSal;
         
         /// <summary>
         /// edtFecha control.
@@ -170,7 +170,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtFecha;
+        protected global::DevExpress.Web.ASPxDateEdit edtFecha;
         
         /// <summary>
         /// edtKilogramos control.
@@ -179,7 +179,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtKilogramos;
+        protected global::DevExpress.Web.ASPxTextBox edtKilogramos;
         
         /// <summary>
         /// edtDestino control.
@@ -188,7 +188,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtDestino;
+        protected global::DevExpress.Web.ASPxTextBox edtDestino;
         
         /// <summary>
         /// btnGenSalida control.
@@ -197,7 +197,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGenSalida;
+        protected global::DevExpress.Web.ASPxButton btnGenSalida;
         
         /// <summary>
         /// btnSalidaConcentrado control.
@@ -206,7 +206,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnSalidaConcentrado;
+        protected global::DevExpress.Web.ASPxButton btnSalidaConcentrado;
         
         /// <summary>
         /// dsLotesSal control.

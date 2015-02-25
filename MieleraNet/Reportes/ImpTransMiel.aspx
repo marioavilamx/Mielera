@@ -1,6 +1,6 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ImpTransMiel.aspx.cs" Inherits="MieleraNet.Reportes.ImpTransMiel" %>
 
-<%@ Register Assembly="DevExpress.XtraReports.v13.2.Web, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.XtraReports.v14.2.Web, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

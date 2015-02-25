@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using MieleraNet.DAL;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 namespace MieleraNet.Transferencias
 {
@@ -76,7 +76,7 @@ namespace MieleraNet.Transferencias
                 btnReimprimir.Visible = false;
         }
 
-        protected void gridTamb_CustomColumnDisplayText(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewColumnDisplayTextEventArgs e)
+        protected void gridTamb_CustomColumnDisplayText(object sender, ASPxGridViewColumnDisplayTextEventArgs e)
         {
             if (e.Column.FieldName == "IDTAMBOR")
             {
@@ -96,9 +96,9 @@ namespace MieleraNet.Transferencias
             }
         }
 
-        protected void gridTamb_CommandButtonInitialize(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCommandButtonEventArgs e)
+        protected void gridTamb_CommandButtonInitialize(object sender, ASPxGridViewCommandButtonEventArgs e)
         {
-            if (e.ButtonType == DevExpress.Web.ASPxGridView.ColumnCommandButtonType.SelectCheckbox)
+            if (e.ButtonType == ColumnCommandButtonType.SelectCheckbox)
             {
                 //string strMuestreado = (string)gridTamb.GetRowValues(e.VisibleIndex, "STATUS");
                 //if (strMuestreado == "SI")

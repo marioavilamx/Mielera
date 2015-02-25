@@ -1,20 +1,11 @@
 <%@ Page Language="C#" MasterPageFile="~/Mielera.Master" AutoEventWireup="true" CodeBehind="solicitud.aspx.cs" Inherits="MieleraNet.Solicitudes.solicitud" Title="Solicitud de Anticipos y Suministros" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxTabControl" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxClasses" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v13.2, Version=13.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
-    Namespace="DevExpress.Web.ASPxPopupControl" TagPrefix="dx" %>
-
+<%@ Register Assembly="DevExpress.Web.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <dx:ASPxPageControl ID="pagecontrolSolicitud" runat="server" ActiveTabIndex="2">
-        <TabPages>
+        <tabpages>
             <dx:TabPage Text="Consulta">
                 <ContentCollection>
                     <dx:ContentControl runat="server">
@@ -296,7 +287,7 @@
                     </dx:ContentControl>
                 </ContentCollection>
             </dx:TabPage>
-        </TabPages>
+        </tabpages>
     </dx:ASPxPageControl>
     <asp:ObjectDataSource ID="dsLocenfis" runat="server" SelectMethod="ObtenApicultoresPorDelegado"
         TypeName="MieleraNet.DAL.CentralDS">

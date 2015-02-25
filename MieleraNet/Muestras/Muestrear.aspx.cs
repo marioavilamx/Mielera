@@ -49,7 +49,7 @@ namespace MieleraNet.Muestras
             }
         }
 
-        protected void gridTamb_CustomColumnDisplayText(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewColumnDisplayTextEventArgs e)
+        protected void gridTamb_CustomColumnDisplayText(object sender, DevExpress.Web.ASPxGridViewColumnDisplayTextEventArgs e)
         {
             if (e.Column.FieldName == "IDTAMBOR")
             {
@@ -60,9 +60,9 @@ namespace MieleraNet.Muestras
             }
         }
 
-        protected void gridTamb_CommandButtonInitialize(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCommandButtonEventArgs e)
+        protected void gridTamb_CommandButtonInitialize(object sender, DevExpress.Web.ASPxGridViewCommandButtonEventArgs e)
         {
-            if (e.ButtonType == DevExpress.Web.ASPxGridView.ColumnCommandButtonType.SelectCheckbox)
+            if (e.ButtonType == DevExpress.Web.ColumnCommandButtonType.SelectCheckbox)
             {
                 string strMuestreado = (string)gridTamb.GetRowValues(e.VisibleIndex, "STATUS");
                 if (strMuestreado == "SI")

@@ -26,7 +26,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelRecBook;
+        protected global::DevExpress.Web.ASPxRoundPanel panelRecBook;
         
         /// <summary>
         /// gridRecBook control.
@@ -35,7 +35,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gridRecBook;
+        protected global::DevExpress.Web.ASPxGridView gridRecBook;
         
         /// <summary>
         /// panelRecMuestras control.
@@ -44,7 +44,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel panelRecMuestras;
+        protected global::DevExpress.Web.ASPxRoundPanel panelRecMuestras;
         
         /// <summary>
         /// gridRecMuestras control.
@@ -53,7 +53,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView gridRecMuestras;
+        protected global::DevExpress.Web.ASPxGridView gridRecMuestras;
         
         /// <summary>
         /// dsRecBook control.

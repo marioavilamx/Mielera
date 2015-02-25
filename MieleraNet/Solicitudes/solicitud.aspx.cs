@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using MieleraNet.DAL;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 namespace MieleraNet.Solicitudes
 {
@@ -93,7 +93,7 @@ namespace MieleraNet.Solicitudes
             popMB.ShowOnPageLoad = true;
         }
 
-        protected void gridSolicitud_CustomButtonCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomButtonCallbackEventArgs e)
+        protected void gridSolicitud_CustomButtonCallback(object sender, DevExpress.Web.ASPxGridViewCustomButtonCallbackEventArgs e)
         {
             if (e.ButtonID == "Enviar") 
             {
@@ -104,7 +104,7 @@ namespace MieleraNet.Solicitudes
             }
         }
 
-        protected void gridSolicitud_CustomColumnDisplayText(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewColumnDisplayTextEventArgs e)
+        protected void gridSolicitud_CustomColumnDisplayText(object sender, DevExpress.Web.ASPxGridViewColumnDisplayTextEventArgs e)
         {
             if (e.Column.FieldName == "IDSOLREC")
             {

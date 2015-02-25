@@ -35,7 +35,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxImage imgLogo;
+        protected global::DevExpress.Web.ASPxImage imgLogo;
         
         /// <summary>
         /// LoginName1 control.
@@ -80,7 +80,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxSiteMapControl.ASPxSiteMapDataSource ASPxSiteMapDataSource1;
+        protected global::DevExpress.Web.ASPxSiteMapDataSource ASPxSiteMapDataSource1;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

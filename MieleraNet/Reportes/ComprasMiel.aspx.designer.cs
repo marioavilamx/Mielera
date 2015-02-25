@@ -19,7 +19,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxRoundPanel.ASPxRoundPanel ASPxRoundPanel1;
+        protected global::DevExpress.Web.ASPxRoundPanel ASPxRoundPanel1;
         
         /// <summary>
         /// listExportFormat control.
@@ -28,7 +28,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox listExportFormat;
+        protected global::DevExpress.Web.ASPxComboBox listExportFormat;
         
         /// <summary>
         /// btnSaveAs control.
@@ -37,7 +37,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnSaveAs;
+        protected global::DevExpress.Web.ASPxButton btnSaveAs;
         
         /// <summary>
         /// btnOpen control.
@@ -46,7 +46,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOpen;
+        protected global::DevExpress.Web.ASPxButton btnOpen;
         
         /// <summary>
         /// gridCompraMiel control.
@@ -64,7 +64,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldNombre;
+        protected global::DevExpress.XtraPivotGrid.PivotGridField fieldNombre;
         
         /// <summary>
         /// fieldKG control.
@@ -73,7 +73,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldKG;
+        protected global::DevExpress.XtraPivotGrid.PivotGridField fieldKG;
         
         /// <summary>
         /// fieldAnio control.
@@ -82,7 +82,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldAnio;
+        protected global::DevExpress.XtraPivotGrid.PivotGridField fieldAnio;
         
         /// <summary>
         /// fieldMES control.
@@ -91,7 +91,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldMES;
+        protected global::DevExpress.XtraPivotGrid.PivotGridField fieldMES;
         
         /// <summary>
         /// fieldSubTotal control.
@@ -100,7 +100,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldSubTotal;
+        protected global::DevExpress.XtraPivotGrid.PivotGridField fieldSubTotal;
         
         /// <summary>
         /// fieldContenido control.
@@ -109,7 +109,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldContenido;
+        protected global::DevExpress.XtraPivotGrid.PivotGridField fieldContenido;
         
         /// <summary>
         /// objCompraMielDS control.
@@ -127,6 +127,6 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.Export.ASPxPivotGridExporter ASPxPivotGridExporter1;
+        protected global::DevExpress.Web.ASPxPivotGrid.ASPxPivotGridExporter ASPxPivotGridExporter1;
     }
 }

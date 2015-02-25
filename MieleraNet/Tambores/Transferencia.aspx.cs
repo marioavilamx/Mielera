@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using MieleraNet.DAL;
-using DevExpress.Web.ASPxGridView;
+using DevExpress.Web;
 
 namespace MieleraNet.Tambores
 {
@@ -43,7 +43,7 @@ namespace MieleraNet.Tambores
             gridTransferencias.DataBind();
         }
 
-        protected void CallbackPanel_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e)
+        protected void CallbackPanel_Callback(object sender, CallbackEventArgsBase e)
         {
             TransferenciasDS trans = new TransferenciasDS();
             int idarea = (int)Session["idarea"];
@@ -116,7 +116,7 @@ namespace MieleraNet.Tambores
         }
 
 
-        protected void listboxTambores_Callback(object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e)
+        protected void listboxTambores_Callback(object sender, CallbackEventArgsBase e)
         {
 
             int idtambor = int.Parse(e.Parameter);
@@ -149,6 +149,8 @@ namespace MieleraNet.Tambores
             gridRecepcion.DataBind();
 
         }
+
+
 
 
     }

@@ -46,7 +46,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel ASPxLabel1;
+        protected global::DevExpress.Web.ASPxLabel ASPxLabel1;
         
         /// <summary>
         /// edtUsuario control.
@@ -55,7 +55,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtUsuario;
+        protected global::DevExpress.Web.ASPxTextBox edtUsuario;
         
         /// <summary>
         /// Image2 control.
@@ -73,7 +73,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel ASPxLabel2;
+        protected global::DevExpress.Web.ASPxLabel ASPxLabel2;
         
         /// <summary>
         /// edtPassword control.
@@ -82,7 +82,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox edtPassword;
+        protected global::DevExpress.Web.ASPxTextBox edtPassword;
         
         /// <summary>
         /// Image3 control.
@@ -100,7 +100,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbEmpresas;
+        protected global::DevExpress.Web.ASPxLabel lbEmpresas;
         
         /// <summary>
         /// edtEmpresas control.
@@ -109,7 +109,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtEmpresas;
+        protected global::DevExpress.Web.ASPxComboBox edtEmpresas;
         
         /// <summary>
         /// btnLogin control.
@@ -118,7 +118,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnLogin;
+        protected global::DevExpress.Web.ASPxButton btnLogin;
         
         /// <summary>
         /// dsEmpresas control.
@@ -136,7 +136,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPopupControl.ASPxPopupControl popMB;
+        protected global::DevExpress.Web.ASPxPopupControl popMB;
         
         /// <summary>
         /// lbError control.
@@ -145,7 +145,7 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel lbError;
+        protected global::DevExpress.Web.ASPxLabel lbError;
         
         /// <summary>
         /// DlgBtnCerrar control.
@@ -154,6 +154,6 @@ namespace MieleraNet {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton DlgBtnCerrar;
+        protected global::DevExpress.Web.ASPxButton DlgBtnCerrar;
     }
 }

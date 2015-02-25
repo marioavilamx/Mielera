@@ -35,7 +35,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox edtDelegado;
+        protected global::DevExpress.Web.ASPxComboBox edtDelegado;
         
         /// <summary>
         /// edtFechaIni control.
@@ -44,7 +44,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtFechaIni;
+        protected global::DevExpress.Web.ASPxDateEdit edtFechaIni;
         
         /// <summary>
         /// edtFechaFin control.
@@ -53,7 +53,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit edtFechaFin;
+        protected global::DevExpress.Web.ASPxDateEdit edtFechaFin;
         
         /// <summary>
         /// btnGenRep control.
@@ -62,7 +62,7 @@ namespace MieleraNet.Reportes {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnGenRep;
+        protected global::DevExpress.Web.ASPxButton btnGenRep;
         
         /// <summary>
         /// linkRegresar control.

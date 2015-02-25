@@ -8,9 +8,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxNavBar;
+using DevExpress.Web;
 using MieleraNet.Web;
-using DevExpress.Web.ASPxSiteMapControl;
 
 namespace MieleraNet
 {
