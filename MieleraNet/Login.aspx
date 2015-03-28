@@ -4,77 +4,51 @@
     Namespace="DevExpress.Web" TagPrefix="dx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<table style="margin-left: 0px; text-align: left">
-        <tr>
-            <td>
-            </td>
-            <td colspan="2">
-                <table border="0" cellpadding="0">
-                    <tr>
-                        <td style="width: 100px">
-                            &nbsp;
-                            <asp:ImageButton ID="btnProd" runat="server" Height="30px" ImageUrl="~/Images/Home.png"
-                                Width="30px" OnClick="btnProd_Click" /></td>
-                        <td style="width: 100px">
-                            &nbsp;
-                            <asp:ImageButton ID="btnDemo" runat="server" Height="30px" ImageUrl="~/Images/Demo.jpg"
-                                Width="30px" OnClick="btnDemo_Click" /></td>
-                    </tr>
-                </table>
-                <br />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Image ID="Image1" runat="server" ImageUrl="~/App_Themes/user.png" /></td>
-            <td style="width: 80px">
-                <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Usuario:">
-                                </dx:ASPxLabel>
-            </td>
-            <td style="width: 200px">
-                <dx:ASPxTextBox ID="edtUsuario" runat="server" Text="" Width="100%">
-                                </dx:ASPxTextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <asp:Image ID="Image2" runat="server" ImageUrl="~/App_Themes/security_keyandlock.png" /></td>
-            <td style="width: 80px">
-                <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="Contrasea">
-                            </dx:ASPxLabel>
-            </td>
-            <td>
-                <dx:ASPxTextBox ID="edtPassword" runat="server" Password="True" Text="admin" Width="100%">
-                                </dx:ASPxTextBox>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            <asp:Image ID="Image3" runat="server" ImageUrl="~/App_Themes/user.png" />
-            </td>
-            <td style="width: 80px">
-                <dx:ASPxLabel ID="lbEmpresas" runat="server" Text="Empresas">
-                </dx:ASPxLabel>
-            </td>
-            <td>
-                <dx:ASPxComboBox ID="edtEmpresas" runat="server" DataSourceID="dsEmpresas" TextField="NOMBRE" ValueField="IDEMPRESA" ValueType="System.Int32" Width="100%" SelectedIndex="1">
-                </dx:ASPxComboBox>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            </td>
-            <td style="width: 80px">
-            </td>
-            <td>
-            <br />
-                <dx:ASPxButton ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Ingresar">
-                </dx:ASPxButton>
-            </td>
-        </tr>
-</table>
+<style type="text/css">
+    .menu{
+        display: table-cell;
+        width: 0%;
+    }
+
+    .encabezado{
+        display:none;
+    }
+    .footer {
+        display:none;
+    }
+
+</style>
+<div class="wraper centrar login">
+    <div class="wraper-row inlineblock textdecoration height10">
+        <div class="wraper-cell ">
+            <asp:LinkButton ID="btnProdLink" runat="server" OnClick="btnProdLink_Click" CssClass="icon-home3 fon-size textdecoration"></asp:LinkButton>
+          
+        </div>
+        <div class="wraper-cell">
+            <asp:LinkButton ID="btnDemoLink" runat="server" CssClass="icon-wrench fon-size textdecoration" OnClick="btnDemoLink_Click"></asp:LinkButton>
+        </div>
+    </div>  
+    <div class="wraper-row height10">
+        <div class="wraper-cell icon-user-tie">
+            <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Usuario:"></dx:ASPxLabel>
+            <dx:ASPxTextBox ID="edtUsuario" runat="server" Text="" Width="100%" NullText="Ingrese su usuario"></dx:ASPxTextBox>
+        </div>
+        <div class="wraper-cell icon-key">
+            <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="Contrasea"></dx:ASPxLabel>
+            <dx:ASPxTextBox ID="edtPassword" runat="server" Password="True" Text="admin" Width="100%" NullText="Ingrese su contraseña"></dx:ASPxTextBox>
+        </div>    
+    </div>
+    
+    <div>
+        <dx:ASPxComboBox ID="edtEmpresas" runat="server" DataSourceID="dsEmpresas" TextField="NOMBRE" ValueField="IDEMPRESA" ValueType="System.Int32" Width="100%" SelectedIndex="1"></dx:ASPxComboBox>
+    </div>
+    <div class="boton">
+        <dx:ASPxButton ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Ingresar"></dx:ASPxButton>
+    </div>
+</div>
     <asp:ObjectDataSource ID="dsEmpresas" runat="server" SelectMethod="ObtenEmpresas"
-        TypeName="MieleraNet.DAL.CentralDS"></asp:ObjectDataSource>
+        TypeName="MieleraNet.DAL.CentralDS">
+    </asp:ObjectDataSource>
     <dx:ASPxPopupControl id="popMB" runat="server" AllowDragging="True" ClientInstanceName="pcError"
         EnableViewState="False" HeaderText="Error" Modal="True" PopupHorizontalAlign="WindowCenter"
         PopupVerticalAlign="WindowCenter">

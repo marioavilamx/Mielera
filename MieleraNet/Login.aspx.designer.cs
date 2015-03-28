@@ -13,31 +13,22 @@ namespace MieleraNet {
     public partial class Login {
         
         /// <summary>
-        /// btnProd control.
+        /// btnProdLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnProd;
+        protected global::System.Web.UI.WebControls.LinkButton btnProdLink;
         
         /// <summary>
-        /// btnDemo control.
+        /// btnDemoLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnDemo;
-        
-        /// <summary>
-        /// Image1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.LinkButton btnDemoLink;
         
         /// <summary>
         /// ASPxLabel1 control.
@@ -58,15 +49,6 @@ namespace MieleraNet {
         protected global::DevExpress.Web.ASPxTextBox edtUsuario;
         
         /// <summary>
-        /// Image2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image2;
-        
-        /// <summary>
         /// ASPxLabel2 control.
         /// </summary>
         /// <remarks>
@@ -83,24 +65,6 @@ namespace MieleraNet {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox edtPassword;
-        
-        /// <summary>
-        /// Image3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
-        
-        /// <summary>
-        /// lbEmpresas control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxLabel lbEmpresas;
         
         /// <summary>
         /// edtEmpresas control.

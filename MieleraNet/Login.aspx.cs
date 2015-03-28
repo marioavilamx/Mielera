@@ -68,19 +68,9 @@ namespace MieleraNet
             }
         }
 
-        protected void btnDemo_Click(object sender, ImageClickEventArgs e)
-        {
-            //TODO:arturo inicia
-            MieleraHttpApplication httpApplication = (MieleraHttpApplication)Session["httpApplication"];
-            httpApplication.MieleraApplicationSettings.bEsDemo = true;
-            Session["httpApplication"] = httpApplication;
-            //MieleraHttpApplication.MieleraApplicationSettings.bEsDemo = true;
-            //ARturo fin
-            edtEmpresas.DataBind();
-            btnLogin.Text = "Ingresar a Demo";
-        }
+        
 
-        protected void btnProd_Click(object sender, ImageClickEventArgs e)
+        protected void btnProdLink_Click(object sender, EventArgs e)
         {
             //TODO: arturo inicia
             //MieleraHttpApplication.MieleraApplicationSettings.bEsDemo = false;
@@ -90,6 +80,18 @@ namespace MieleraNet
             //arturo fin
             edtEmpresas.DataBind();
             btnLogin.Text = "Ingresar";
+        }
+
+        protected void btnDemoLink_Click(object sender, EventArgs e)
+        {
+            //TODO:arturo inicia
+            MieleraHttpApplication httpApplication = (MieleraHttpApplication)Session["httpApplication"];
+            httpApplication.MieleraApplicationSettings.bEsDemo = true;
+            Session["httpApplication"] = httpApplication;
+            //MieleraHttpApplication.MieleraApplicationSettings.bEsDemo = true;
+            //ARturo fin
+            edtEmpresas.DataBind();
+            btnLogin.Text = "Ingresar a Demo";
         }
 
     }
