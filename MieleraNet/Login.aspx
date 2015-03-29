@@ -43,7 +43,7 @@
         <dx:ASPxComboBox ID="edtEmpresas" runat="server" DataSourceID="dsEmpresas" TextField="NOMBRE" ValueField="IDEMPRESA" ValueType="System.Int32" Width="100%" SelectedIndex="1"></dx:ASPxComboBox>
     </div>
     <div class="boton">
-        <dx:ASPxButton ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Ingresar"></dx:ASPxButton>
+        <dx:ASPxButton CssClass="btnLogin" ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Ingresar"></dx:ASPxButton>
     </div>
 </div>
     <asp:ObjectDataSource ID="dsEmpresas" runat="server" SelectMethod="ObtenEmpresas"

@@ -57,7 +57,7 @@
 
 
 body{
-    background:url(/Images/orange.jpg);
+    background:url(../Images/orange.jpg);
     background-size: 100%;
 	background-color: #FFA812;
 }
@@ -92,10 +92,11 @@ body{
 	font-size: 2rem;
 }
 .encabezado{
-	background-color: peru;
+	background-color: #ffd800;
 	height: 50px;
 	margin: 5px,0px,5px,5px;
 	position: relative;
+	box-shadow: 0 0 10px #000;
 }
 
 .margin-right{
@@ -150,7 +151,40 @@ body{
 	width: 100%
 }
 
+.btnLogin{
+	width: 100px;
+	height: 40px;
+	background: rgb(195,141,9); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(195,141,9,1) 0%, rgba(181,129,9,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,141,9,1)), color-stop(100%,rgba(181,129,9,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(195,141,9,1) 0%,rgba(181,129,9,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(195,141,9,1) 0%,rgba(181,129,9,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(195,141,9,1) 0%,rgba(181,129,9,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(195,141,9,1) 0%,rgba(181,129,9,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c38d09', endColorstr='#b58109',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #D69C0A;
+	box-shadow: 0px 0px 2px #000;
+	-moz-box-shadow: 0px 0px 2px #000;
+	-webkit-box-shadow: 0px 0px 2px #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
 
+.btnLogin:hover{
+	background: #C1A609;
+	border: 1px solid #AD8908;
+}
+.btnLogin:active{
+	background: rgb(181,129,9); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(181,129,9,1) 0%, rgba(195,141,9,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,129,9,1)), color-stop(100%,rgba(195,141,9,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(181,129,9,1) 0%,rgba(195,141,9,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(181,129,9,1) 0%,rgba(195,141,9,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(181,129,9,1) 0%,rgba(195,141,9,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(181,129,9,1) 0%,rgba(195,141,9,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b58109', endColorstr='#c38d09',GradientType=0 ); /* IE6-9 */
+}
 /* ----------------- Fin MARIO --------------------------- */
 
 
